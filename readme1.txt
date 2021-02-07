@@ -139,4 +139,5 @@ git checkout branchname
 //to check git all the branch
 git branch
  
->>>>>>> develop
+//to merge brach with master
+git merge branchname
