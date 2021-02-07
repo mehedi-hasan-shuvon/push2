@@ -122,3 +122,9 @@ tail ~/.ssh/id_rsa.pub
 ............<branching>...................
 // to create a branch and swich into it 
 git checkout -b develop
+
+// to change branch 
+git checkout branchname
+//to check git all the branch
+git branch
+ 
