@@ -108,3 +108,13 @@ git remote -v
 // to push something on git
 git branch -M main (only for the first time)
 git push -u origin  main
+
+...............<branching>..........
+//to create new branch
+git  checkout -b branchname
+
+//to switch between branches
+git checkout branchname
+
+//to see all the branch  list
+git branch
