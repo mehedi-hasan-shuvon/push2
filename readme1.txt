@@ -108,3 +108,8 @@ git remote -v
 // to push something on git
 git branch -M main (only for the first time)
 git push -u origin  main
+
+
+............<branching>...................
+// to create a branch and swich into it 
+git checkout -b develop
