@@ -109,6 +109,7 @@ git remote -v
 git branch -M main (only for the first time)
 git push -u origin  main
 
+<<<<<<< HEAD
 ...............<branching>..........
 //to create new branch
 git  checkout -b branchname
@@ -118,3 +119,24 @@ git checkout branchname
 
 //to see all the branch  list
 git branch
+=======
+
+//to create ssh key
+git remote add origin git@github.com:mehedi-hasan-shuvon/push2.git
+ssh-keygen -t rsa -b 4096 -C "mehedi.hasan.shuvon@gmail.com"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+tail ~/.ssh/id_rsa.pub
+
+
+
+............<branching>...................
+// to create a branch and swich into it 
+git checkout -b develop
+
+// to change branch 
+git checkout branchname
+//to check git all the branch
+git branch
+ 
+>>>>>>> develop
