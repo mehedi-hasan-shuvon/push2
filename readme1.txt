@@ -152,3 +152,4 @@ git merge branchname
 
 ........................<git branch  marge conflict>.......................
 
+this is added at bugfix branch
