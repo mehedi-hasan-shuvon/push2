@@ -119,6 +119,8 @@ git checkout branchname
 
 //to see all the branch  list
 git branch
+//to see all the last commit of all branch
+git branch -v
 =======
 
 //to create ssh key
@@ -143,3 +145,4 @@ git branch
 git merge branchname
 
 ........................<git branch  marge conflict>.......................
+
