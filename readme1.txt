@@ -141,3 +141,5 @@ git branch
  
 //to merge brach with master
 git merge branchname
+
+........................<git branch  marge conflict>.......................
