@@ -150,6 +150,8 @@ git branch
 //to merge brach with master
 git merge branchname
 
+// to send beanch to github
+git push origin branchname
 ........................<git branch  marge conflict>.......................
 
 this is added at bugfix branch
