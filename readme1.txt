@@ -121,6 +121,12 @@ git checkout branchname
 git branch
 //to see all the last commit of all branch
 git branch -v
+
+git branch --merged(to see which branch already marged)
+git branch --no-merged(to see not merged branch)
+
+//to  delete brnach
+git branch -d brnachname (give error if not merged)
 =======
 
 //to create ssh key
